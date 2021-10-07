@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link href="stylesheet.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+
+    <title>YC. Portfolio Start</title>
+    <link rel="shortcut icon" type="image" href="Bilder/faviconYC.png" />
+
+</head>
+
+<body>
+    <header>
+        <!--content in bg-image header, inc transparent nav-->
+        <!--navigation-->
+        <nav class="navbar sticky-top navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">YC.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="about.html">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Playground</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--presentation-->
+        <div class="container">
+            <article class="row">
+                <div class="col-lg-12 text-center mb-4">
+                    <img src="Bilder/profile.png" class="img-fluid rounded mb-3" alt="Profile pic of YC"><br>
+                    <h6 class="mb-4">Research | Design | Consulting</h6>
+                </div>
+
+                <div class="col-lg-12 text-center mb-5">
+                    <h1 class="display-3">Hello you,</h1>
+                    <h1 class="display-6 mb-5">Yichu Chung- UX Designer</h1>
+                    <p class="lead">Based in Stockholm. Graduating spring 2022. Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. </p>
+                    <a href="about.html"><button type="button" class="btn buttonRound btn-outline-secondary mt-5">About
+                            me</button>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </header>
+    <!--header closed-->
+
+    <div id="hooray">
+
+        <!--cards-->
+        <article class="container">
+
+            <h2 class="display-6 text-center mt-5">View some of my work</h1>
+
+                <div class="row">
+                    <div class="card cardStyle shadow-lg mx-auto p-3 mt-5 col-lg-3 col-md-5">
+                        <img src="Bilder/frisq.png" class="card-img-top" alt="Frisq app">
+                        <div class="card-body position-relative mb-2">
+                            <h5 class="card-title">Frisq</h5>
+                            <p class="card-text">How can we illustrate patient journeys for chronically ill patients?
+                            </p>
+                            <a href="projects.html#firstCase" class="card-link position-absolute bottom-0">Read about
+                                Frisq</a>
+                        </div>
+                    </div>
+
+                    <div class="col-1"></div>
+
+                    <div class="card cardStyle shadow-lg mx-auto p-3 mt-5 col-lg-3 col-md-5">
+                        <img src="Bilder/AssaAbloy.png" class="card-img-top" alt="Yale smart lock">
+                        <div class="card-body position-relative mb-2">
+                            <h5 class="card-title">Assa Abloy</h5>
+                            <p class="card-text">What do people want from a smart lock?</p>
+                            <a href="projects.html#secondCase" class="card-link position-absolute bottom-0">Read about
+                                Assa Abloy</a>
+                        </div>
+                    </div>
+
+                    <div class="col-1"></div>
+
+                    <div class="card cardStyle shadow-lg mx-auto p-3 mt-5 col-lg-3 col-md-5">
+                        <img src="Bilder/Hemnet.png" class="card-img-top" alt="Hemnet app">
+                        <div class="card-body position-relative mb-2">
+                            <h5 class="card-title">Hemnet</h5>
+                            <p class="card-text">Reviewing web accessability of Hemnet.se</p>
+                            <a href="projects.html#thirdCase" class="card-link position-absolute bottom-0">Read about
+                                Hemnet</a>
+                        </div>
+                    </div>
+
+
+                </div>
+        </article>
+
+
+
+        <!--footer-->
+        <footer class="container-fluid text-center">
+            <p>Don't be a stranger: <a href="#">mail@mail.com</a></p>
+            <!-- confetti button -->
+            <p>You made it to the end! Let's celebrate:</p>
+            <button type="button" class="buttonHooray p-2" onclick="fireworks()">Fireworks!</button>
+
+        </footer>
+    </div>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+
+
+    </div>
+</body>
+
+</html>
